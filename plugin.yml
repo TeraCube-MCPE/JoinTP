@@ -1,0 +1,15 @@
+name: JoinTp
+version: 0.1
+api: 3.0.0
+main: TeraTeam\Main
+author: TeraTeam
+
+commands:
+  setjoin:
+    description: "Définit la position de quand un joueur va rejoindre le serveur avec la permission join.tp"
+    permission: "join.tp.use"
+
+permissions:
+  join.tp.use:
+    description: "Access à la commande /setjoin"
+    default: "op"
